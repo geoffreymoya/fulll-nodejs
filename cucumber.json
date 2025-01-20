@@ -1,0 +1,18 @@
+{
+    "default": {
+      "loader": [
+        "ts-node/esm"
+      ],
+      "import": [
+        "features/step-definitions/**/step1.ts"
+      ]
+    },
+    "step2": {
+      "loader": [
+        "ts-node/esm"
+      ],
+      "import": [
+        "features/step-definitions/**/step2.ts"
+      ]
+    }
+  }
